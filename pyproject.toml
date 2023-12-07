@@ -1,0 +1,24 @@
+[build-system]
+build-backend = "cmeel"
+requires = ["cmeel[build]"]
+
+[project]
+description = "cmeel distribution for spirv-headers"
+license = "BSD-3-Clause"
+name = "cmeel-spirv-headers"
+requires-python = ">= 3.8"
+version = "1.5.4"
+
+[project.urls]
+homepage = "https://github.com/cmake-wheel/cmeel-spirv-headers"
+repository = "https://github.com/cmake-wheel/cmeel-spirv-headers.git"
+upstream = "https://github.com/KhronosGroup/spirv-headers"
+
+[tool.cmeel]
+has-binaries = false
+has-sitelib = false
+source = "spirv-headers"
+run-tests = false
+
+[tool.tomlsort]
+all = true
