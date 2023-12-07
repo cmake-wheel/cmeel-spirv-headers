@@ -17,8 +17,8 @@ upstream = "https://github.com/KhronosGroup/spirv-headers"
 [tool.cmeel]
 has-binaries = false
 has-sitelib = false
-source = "spirv-headers"
 run-tests = false
+source = "spirv-headers"
 
 [tool.tomlsort]
 all = true
