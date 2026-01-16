@@ -7,7 +7,7 @@ description = "cmeel distribution for spirv-headers"
 license = "BSD-3-Clause"
 name = "cmeel-spirv-headers"
 requires-python = ">= 3.10"
-version = "1.3.261.1"
+version = "1.4.335.0"
 
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-spirv-headers"
@@ -15,7 +15,6 @@ repository = "https://github.com/cmake-wheel/cmeel-spirv-headers.git"
 upstream = "https://github.com/KhronosGroup/spirv-headers"
 
 [tool.cmeel]
-build-number = 1
 has-binaries = false
 has-sitelib = false
 run-tests = false
